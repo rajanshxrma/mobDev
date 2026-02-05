@@ -206,3 +206,5 @@ class _TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
     );
   }
 }
+
+// End of main.dart - Flutter Tabs Demo App
