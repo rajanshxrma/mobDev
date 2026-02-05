@@ -81,7 +81,7 @@ class _TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
       body: TabBarView(
         controller: _tabController,
         children: [
-          // Tab 1 - Text Widget with AlertDialog
+          // tab 1 - text widget with alertdialog
           Container(
             color: Colors.red[100],
             child: Center(
@@ -122,7 +122,7 @@ class _TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
               ),
             ),
           ),
-          // Tab 2 - Image Widget with Input text widgets
+          // tab 2 - image widget with input text widgets
           Container(
             color: Colors.green[100],
             padding: EdgeInsets.all(16),
@@ -153,7 +153,7 @@ class _TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
               ],
             ),
           ),
-          // Tab 3 - Button Widget with SnackBar
+          // tab 3 - button widget with snackbar
           Container(
             color: Colors.blue[100],
             child: Center(
@@ -169,7 +169,7 @@ class _TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
               ),
             ),
           ),
-          // Tab 4 - ListView Widget with Card widgets
+          // tab 4 - listview widget with card widgets
           Container(
             color: Colors.purple[100],
             child: ListView(
@@ -185,7 +185,7 @@ class _TabsNonScrollableDemoState extends State<_TabsNonScrollableDemo>
           ),
         ],
       ),
-      // Bottom App Bar
+      // bottom app bar
       bottomNavigationBar: BottomAppBar(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
