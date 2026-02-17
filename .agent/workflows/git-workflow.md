@@ -13,6 +13,11 @@ Before making any changes in this workspace, follow these rules:
    - Do NOT assume or auto-generate commit messages
    - Wait for user approval before pushing
 
+2. **Commit messages must sound natural and student-written**
+   - Never use language that implies AI assistance or external instructions (e.g., "implemented as requested", "added per instructions", "as discussed")
+   - Write simple, straightforward developer-style messages (e.g., "added counter app with slider and history", "fixed lint warnings")
+   - Messages should read like a student documenting their own work
+
 ## Example
 
 When pushing changes:
